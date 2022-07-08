@@ -22,5 +22,6 @@ public class ShoppingList {
             total+=each.calCost();
         }
         System.out.println("total = " + total);
+
     }
 }

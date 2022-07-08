@@ -50,4 +50,14 @@ public class Circle {
         area = calculateArea();
         perimeter = calculatePerimeter();
     }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", diameter=" + diameter +
+                ", area=" + area +
+                ", perimeter=" + perimeter +
+                '}';
+    }
 }

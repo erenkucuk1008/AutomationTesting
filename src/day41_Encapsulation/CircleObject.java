@@ -14,5 +14,7 @@ public class CircleObject {
         System.out.println(c1.getDiameter());
         System.out.println(c1.getArea());
         System.out.println(c1.getPerimeter());
+
+        System.out.println(c1);
     }
 }

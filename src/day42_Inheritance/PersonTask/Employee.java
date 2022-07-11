@@ -32,4 +32,8 @@ public class Employee extends Person{ // Employee IS A Person
                 ", salary= $" + (int)calcSalary() +
                 '}';
     }
+
+    public static String publicVariable = "Public";
+    protected static String protectedVariable = "Protected";
+    static String defaultVariable = "default";
 }

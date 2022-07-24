@@ -7,7 +7,7 @@ public class ParseMethods {
     public static void main(String[] args) {
 
         String data = "123";
-        System.out.println(data+3);
+        //System.out.println(data+3);
 
         int num1 = Integer.parseInt(data); // none
         //                  primitive <==== primitive int

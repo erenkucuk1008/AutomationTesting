@@ -10,7 +10,7 @@ class Test{
 
     public void m(){
         this.method();
-        //super.method();
+        //super.method(); // Test class does not have super class
     }
 }
 

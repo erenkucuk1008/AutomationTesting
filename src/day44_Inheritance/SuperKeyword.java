@@ -1,6 +1,6 @@
 package day44_Inheritance;
 
-class Test{
+class Test{ // Test SuperClass
 
     int a; //200
 
@@ -14,7 +14,7 @@ class Test{
     }
 }
 
-public class SuperKeyword extends Test {
+public class SuperKeyword extends Test { //SuperKeywprd SubClass
 
     //a=300;
 

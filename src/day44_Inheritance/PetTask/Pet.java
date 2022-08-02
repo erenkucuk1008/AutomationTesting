@@ -20,7 +20,7 @@ public class Pet {
         System.out.println(name+" is eating");
     }
 
-    protected void drinl(){
+    protected void drink(){
         System.out.println(name+" is drinking");
     }
 

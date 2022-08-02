@@ -11,7 +11,10 @@ public class House {
         System.out.println(dog1.name);
         System.out.println(dog1);
 
+        Tiger tiger = new Tiger("Arap","Kaplan",'M',4,"Orange-White");
+
         dog1.eat();
         cat1.sleep();
+        tiger.drink();
     }
 }

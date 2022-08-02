@@ -8,6 +8,6 @@ public class Mercedes extends Car{
 
     @Override
     public void start() {
-        System.out.println("");
+        System.out.println("jj");
     }
 }

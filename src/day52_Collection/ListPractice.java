@@ -26,12 +26,29 @@ public class ListPractice {
         List<Integer> list4 = new Stack<>();
         list4.addAll(Arrays.asList(15,25,35,45));
 
-        ((Stack<Integer>) list4).pop();// remove 45   LIFO  Last Index First Out
+        //list4 List oldugu icin Stack e ceviriyoruz
+        ((Stack<Integer>) list4).pop();// remove 45   LIFO  Last In First Out
         System.out.println(list4);
 
         ((Stack<Integer>) list4).pop();
         System.out.println(list4);
 
+        ((Stack<Integer>) list4).pop();
+        System.out.println(list4);
 
+        Stack<String> names = new Stack<>();
+        names.addAll(Arrays.asList("Eren","Arzum","Hakan","Sevgi","Suleyman"));
+
+        System.out.println(names);
+        names.pop();
+        System.out.println(names);
+        names.pop();
+        System.out.println(names);
+        names.pop();
+        System.out.println(names);
+        names.pop();
+        System.out.println(names);
+        names.pop();
+        System.out.println(names);
      }
 }

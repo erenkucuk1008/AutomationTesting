@@ -90,5 +90,34 @@ public class SetPractice { //we just store unique datas
         LinkedHashSet<Integer> linkedHashSet = new LinkedHashSet<>();
         linkedHashSet.addAll(Arrays.asList(null,null,null,null,null));
         System.out.println(linkedHashSet);
+
+        System.out.println("===================================");
+
+        Set<Integer> numbers = new HashSet<>();
+        numbers.addAll(Arrays.asList(1,2,3,4,5,6,8,9,10));
+
+        int maxNum = Collections.max(numbers);
+        System.out.println("maxNum = " + maxNum);
+
+        int minNum = Collections.min(numbers);
+        System.out.println("minNum = " + minNum);
+
+        System.out.println("=========================");
+
+        //HATIRLATMA---SWAP 1 VE 3. INDEXIN YERI DEGISTIR
+        List<Integer> scores = new ArrayList<>();
+        scores.addAll(Arrays.asList(1,2,3,4,5));
+
+        Collections.swap(scores,1,3);
+        System.out.println(scores);
+
+        System.out.println("========================");
+
+        String eren = "dddaaaaccbb";//d3a4c2b2
+
+        LinkedHashSet<String> e1 = new LinkedHashSet<>(Arrays.asList(eren.split("")));
+        for (String each : e1) {
+            System.out.print(each + Collections.frequency(Arrays.asList(eren.split("")),each));
+        }
     }
 }

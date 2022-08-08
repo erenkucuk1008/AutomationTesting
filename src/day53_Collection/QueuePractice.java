@@ -32,5 +32,22 @@ public class QueuePractice {
 
         linkedList.add(null);
         System.out.println("linkedList = " + linkedList);
+
+        System.out.println("==============================");
+
+        //Order is Random..
+        Queue<Integer> priorityQueue = new PriorityQueue<>();
+        priorityQueue.addAll(Arrays.asList(10,12,9,3,7,1,6));
+        
+        System.out.println("priorityQueue = " + priorityQueue);
+        priorityQueue.poll();
+        priorityQueue.poll();
+
+        System.out.println("priorityQueue = " + priorityQueue);
+
+        //System.out.println(((PriorityQueue<Integer>)priorityQueue).getfirst());
+        //priorityQueue.add(null);
+
     }
 }
+

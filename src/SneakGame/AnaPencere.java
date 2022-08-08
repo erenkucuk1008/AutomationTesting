@@ -5,7 +5,7 @@ import javax.swing.*;
 public class AnaPencere extends JFrame {
 
     private int mGenislik = 600;
-    private  int mYukseklik = 600;
+    private int mYukseklik = 600;
 
     AnaPencere(){
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);//acilan pencere kapandiginda,prgrm kapanir

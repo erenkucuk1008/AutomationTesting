@@ -114,6 +114,7 @@ public class MapPractice2 {
                 System.out.println(country);
             }
         }
+        //
 
         System.out.println("===========================================");
         //  find out which country' capital is "Washington DC"

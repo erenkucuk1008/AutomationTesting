@@ -1,6 +1,8 @@
 package day53_Collection;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MapPractice1 {
@@ -58,6 +60,20 @@ public class MapPractice1 {
 
         System.out.println(nameMax+" : "+max);
         System.out.println(nameMin+" : "+min);
+
+        System.out.println("=========================");
+
+        //    employeeInfo.values().forEach( p -> { System.out.println(p); } );
+
+        for (Double eachValue : employeeInfo.values()) {
+            System.out.println(eachValue);
+        }
+
+
+        List<Double> salaries = new ArrayList<>(employeeInfo.values());
+        System.out.println(salaries);
+
+
 
     }
 }

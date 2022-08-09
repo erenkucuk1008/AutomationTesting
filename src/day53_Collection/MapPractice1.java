@@ -39,16 +39,25 @@ public class MapPractice1 {
         employeeInfo.put("Emre",103000.0);
         employeeInfo.put("Apo",100000.0);
 
-        double max = 0;
-        String nameMax = "";
+        double max = Double.MIN_VALUE, min = Double.MAX_VALUE;
+        String nameMax = "", nameMin = "";
 
         for (String eachName : employeeInfo.keySet()) {
             double eachSalary = employeeInfo.get(eachName);
+
             if (eachSalary>max){
                 max = eachSalary;
                 nameMax = eachName;
             }
+
+            if (eachSalary<min){
+                min = eachSalary;
+                nameMin = eachName;
+            }
         }
+
+        System.out.println(nameMax+" : "+max);
+        System.out.println(nameMin+" : "+min);
 
     }
 }

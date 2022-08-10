@@ -18,8 +18,18 @@ public class EntrySetPractice {
         System.out.println("========================");
 
         for (String eachKey : students.keySet()) {
-            System.out.println(eachKey);
+            System.out.println(eachKey+" : "+students.get(eachKey));
         }
+
+        System.out.println("=============================");
+
+        for (Integer eachValue : students.values()) {
+            System.out.println(eachValue);
+        }
+
+        System.out.println("=============================");
+
+
 
     }
 }

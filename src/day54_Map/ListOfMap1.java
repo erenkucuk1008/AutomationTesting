@@ -58,7 +58,23 @@ public class ListOfMap1 {
         System.out.println("================================");
 
         for (Map<String, String> eachMap : listOfMaps){
+            for (Map.Entry<String, String> eachPair : eachMap.entrySet()) {
+                if (eachPair.getValue().equalsIgnoreCase("Developer")){
+                    System.out.println(eachPair.getKey()+" : "+eachPair.getValue());
+                }
+            }
+        }
 
+        System.out.println("==========================");
+
+        for(int i = 0; i < listOfMaps.size(); i++ ){
+            Map<String, String> eachMap = listOfMaps.get(i);
+            for (String name : eachMap.keySet()) {
+                String jobTitle = eachMap.get(name);
+                if(jobTitle.equals("Developer")){
+                    System.out.println(name);
+                }
+            }
         }
     }
 }

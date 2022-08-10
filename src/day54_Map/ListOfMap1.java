@@ -67,6 +67,8 @@ public class ListOfMap1 {
 
         System.out.println("==========================");
 
+        //2.YOL - index num ile
+        //print all developer' names(Ustteki gibi de yapabiliriz)
         for(int i = 0; i < listOfMaps.size(); i++ ){
             Map<String, String> eachMap = listOfMaps.get(i);
             for (String name : eachMap.keySet()) {

@@ -136,8 +136,5 @@ public class MapPractice2 {
 
         System.out.println("sdets = " + sdets);
 
-        System.out.println(r1);
-        System.out.println(r2);
-
     }
 }

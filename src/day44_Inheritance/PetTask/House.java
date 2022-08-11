@@ -16,5 +16,7 @@ public class House {
         dog1.eat();
         cat1.sleep();
         tiger.drink();
+
+        Pet p1 = new Pet("s","dfg",'M',12,"sdf");
     }
 }

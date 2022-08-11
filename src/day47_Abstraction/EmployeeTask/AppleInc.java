@@ -5,7 +5,7 @@ public class AppleInc {
     public static void main(String[] args) {
 
         //  Person person = new Person("Person A", 28, 'M'); // cannot create object from abstract class
-        // Employee employee = new Employee("John", 34, 'M', "QE", "A01", 100000);
+        //  Employee employee = new Employee("John", 34, 'M', "QE", "A01", 100000);
         // cannot create object from abstract class
 
         Tester tester = new Tester("Mini", 23, 'F',"SDET","S123", 95_000);
@@ -24,5 +24,6 @@ public class AppleInc {
         System.out.println(tester);
         System.out.println(developer);
         System.out.println(uberDriver);
+
     }
 }

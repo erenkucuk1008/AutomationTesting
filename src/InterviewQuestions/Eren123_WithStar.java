@@ -6,6 +6,7 @@ public class Eren123_WithStar {
 
         String str = "Eren123Arzum";
         String result = "";
+        String result1 = "";
 
         for (int i=0; i<str.length(); i++){
             if (Character.isDigit(str.charAt(i))){
@@ -14,7 +15,7 @@ public class Eren123_WithStar {
                 result += str.charAt(i);
             }
         }
-
         System.out.println(result);
+
     }
 }

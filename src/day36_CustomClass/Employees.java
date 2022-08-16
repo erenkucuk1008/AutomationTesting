@@ -15,7 +15,7 @@ public class Employees {
     public void setInfo(String name, char gender, String ID, String jobTitle,
                         String companyName, double salary, LocalDate hireDate){
 
-        this.name = name; // intance = local **oldugunda this keyword u kullaniriz
+        this.name = name; // instance = local **oldugunda this keyword u kullaniriz
         this.gender = gender;
         this.ID = ID;
         this.jobTitle = jobTitle;
